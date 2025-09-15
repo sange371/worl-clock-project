@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>WORLD-CLOCK</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>
+                World Clock
+            </h2>
+        </header>
+        <main>
+            <select id="city-selector">
+                <option value="" >Select a city</option>
+                <option value="current-location">My current location</option>
+                <option value="Europe/Berlin">Berlin</option>
+                <option value="Australia/Sydney">Sydney</option>
+                <option value="America/New_York">New York</option>
+                <option value="Europe/Paris">Paris</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+            </select>
+            <div id="cities">
+                <div class="city" id="paris">
+                    <div>
+                        <h2>Paris</h2>
+                        <div class="date">July 13 ,2025</div>
+                    </div>
+                    <div class="time">2:45:39<small>AM</small></div>
+                </div>   
+            </div>
+        </main>
+    </div>
+    
+    <footer>
+        Coded by 
+        <a href="https://github.com/sange371" target="_blank">Zusange Mbaleki</a>
+        ,find it on 
+        <a href="https://github.com/sange371/world-clock" target="_blank">Github</a>
+        and is hosted on
+        <a href="https://app.netlify.com/teams/sanger371/projects" target="_blank">Netlify</a>
+    </footer>
+
+    <script src="javascript/functioning.js"></script>
+</body>
+</html>
